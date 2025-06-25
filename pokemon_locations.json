@@ -1,0 +1,502 @@
+[
+  {
+    "location_area": "canalave-city",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "eterna-city",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "pastoria-city",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sunyshore-city",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-pokemon-league",
+    "pokemon_id": "73",
+    "pokemon_name": "tentacruel"
+  },
+  {
+    "location_area": "oreburgh-mine",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "valley-windworks",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "eterna-forest",
+    "pokemon_id": "10",
+    "pokemon_name": "caterpie"
+  },
+  {
+    "location_area": "fuego-ironworks",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "mt-coronet",
+    "pokemon_id": "35",
+    "pokemon_name": "clefairy"
+  },
+  {
+    "location_area": "great-marsh",
+    "pokemon_id": "24",
+    "pokemon_name": "arbok"
+  },
+  {
+    "location_area": "solaceon-ruins",
+    "pokemon_id": "201",
+    "pokemon_name": "unown"
+  },
+  {
+    "location_area": "sinnoh-victory-road",
+    "pokemon_id": "42",
+    "pokemon_name": "golbat"
+  },
+  {
+    "location_area": "ravaged-path",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "oreburgh-gate",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "stark-mountain",
+    "pokemon_id": "22",
+    "pokemon_name": "fearow"
+  },
+  {
+    "location_area": "turnback-cave",
+    "pokemon_id": "42",
+    "pokemon_name": "golbat"
+  },
+  {
+    "location_area": "snowpoint-temple",
+    "pokemon_id": "42",
+    "pokemon_name": "golbat"
+  },
+  {
+    "location_area": "wayward-cave",
+    "pokemon_id": "27",
+    "pokemon_name": "sandshrew"
+  },
+  {
+    "location_area": "ruin-maniac-cave",
+    "pokemon_id": "74",
+    "pokemon_name": "geodude"
+  },
+  {
+    "location_area": "trophy-garden",
+    "pokemon_id": "25",
+    "pokemon_name": "pikachu"
+  },
+  {
+    "location_area": "iron-island",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "old-chateau",
+    "pokemon_id": "92",
+    "pokemon_name": "gastly"
+  },
+  {
+    "location_area": "lake-verity",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "lake-valor",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "lake-acuity",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "valor-lakefront",
+    "pokemon_id": "30",
+    "pokemon_name": "nidorina"
+  },
+  {
+    "location_area": "acuity-lakefront",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-201",
+    "pokemon_id": "29",
+    "pokemon_name": "nidoran-f"
+  },
+  {
+    "location_area": "sinnoh-route-202",
+    "pokemon_id": "58",
+    "pokemon_name": "growlithe"
+  },
+  {
+    "location_area": "sinnoh-route-203",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-204",
+    "pokemon_id": "10",
+    "pokemon_name": "caterpie"
+  },
+  {
+    "location_area": "sinnoh-route-205",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-route-206",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-207",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-208",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-209",
+    "pokemon_id": "37",
+    "pokemon_name": "vulpix"
+  },
+  {
+    "location_area": "lost-tower",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-210",
+    "pokemon_id": "74",
+    "pokemon_name": "geodude"
+  },
+  {
+    "location_area": "sinnoh-route-211",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-212",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "sinnoh-route-213",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-route-214",
+    "pokemon_id": "37",
+    "pokemon_name": "vulpix"
+  },
+  {
+    "location_area": "sinnoh-route-215",
+    "pokemon_id": "63",
+    "pokemon_name": "abra"
+  },
+  {
+    "location_area": "sinnoh-route-216",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-217",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "sinnoh-route-218",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-route-219",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-route-221",
+    "pokemon_id": "30",
+    "pokemon_name": "nidorina"
+  },
+  {
+    "location_area": "sinnoh-route-222",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-route-224",
+    "pokemon_id": "43",
+    "pokemon_name": "oddish"
+  },
+  {
+    "location_area": "sinnoh-route-225",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "sinnoh-route-227",
+    "pokemon_id": "22",
+    "pokemon_name": "fearow"
+  },
+  {
+    "location_area": "sinnoh-route-228",
+    "pokemon_id": "28",
+    "pokemon_name": "sandslash"
+  },
+  {
+    "location_area": "sinnoh-route-229",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "twinleaf-town",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "celestic-town",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "resort-area",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "sinnoh-sea-route-220",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "sinnoh-sea-route-223",
+    "pokemon_id": "73",
+    "pokemon_name": "tentacruel"
+  },
+  {
+    "location_area": "sinnoh-sea-route-226",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "sinnoh-sea-route-230",
+    "pokemon_id": "43",
+    "pokemon_name": "oddish"
+  },
+  {
+    "location_area": "blackthorn-city",
+    "pokemon_id": "60",
+    "pokemon_name": "poliwag"
+  },
+  {
+    "location_area": "burned-tower",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "celadon-city",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "cerulean-city",
+    "pokemon_id": "1",
+    "pokemon_name": "bulbasaur"
+  },
+  {
+    "location_area": "cherrygrove-city",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "cianwood-city",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "cinnabar-island",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "dark-cave",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "digletts-cave",
+    "pokemon_id": "50",
+    "pokemon_name": "diglett"
+  },
+  {
+    "location_area": "dragons-den",
+    "pokemon_id": "129",
+    "pokemon_name": "magikarp"
+  },
+  {
+    "location_area": "ecruteak-city",
+    "pokemon_id": "60",
+    "pokemon_name": "poliwag"
+  },
+  {
+    "location_area": "fuchsia-city",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "ice-path",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "ilex-forest",
+    "pokemon_id": "10",
+    "pokemon_name": "caterpie"
+  },
+  {
+    "location_area": "lake-of-rage",
+    "pokemon_id": "10",
+    "pokemon_name": "caterpie"
+  },
+  {
+    "location_area": "mt-moon",
+    "pokemon_id": "60",
+    "pokemon_name": "poliwag"
+  },
+  {
+    "location_area": "mt-mortar",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "mt-silver",
+    "pokemon_id": "42",
+    "pokemon_name": "golbat"
+  },
+  {
+    "location_area": "national-park",
+    "pokemon_id": "10",
+    "pokemon_name": "caterpie"
+  },
+  {
+    "location_area": "new-bark-town",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "olivine-city",
+    "pokemon_id": "72",
+    "pokemon_name": "tentacool"
+  },
+  {
+    "location_area": "pallet-town",
+    "pokemon_id": "1",
+    "pokemon_name": "bulbasaur"
+  },
+  {
+    "location_area": "rock-tunnel",
+    "pokemon_id": "41",
+    "pokemon_name": "zubat"
+  },
+  {
+    "location_area": "kanto-route-1",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-10",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "kanto-route-11",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-12",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-13",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-14",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-15",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-16",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "kanto-route-17",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "kanto-route-18",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  },
+  {
+    "location_area": "kanto-sea-route-19",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "kanto-route-2",
+    "pokemon_id": "10",
+    "pokemon_name": "caterpie"
+  },
+  {
+    "location_area": "kanto-sea-route-20",
+    "pokemon_id": "54",
+    "pokemon_name": "psyduck"
+  },
+  {
+    "location_area": "kanto-sea-route-21",
+    "pokemon_id": "16",
+    "pokemon_name": "pidgey"
+  },
+  {
+    "location_area": "kanto-route-22",
+    "pokemon_id": "19",
+    "pokemon_name": "rattata"
+  }
+]
