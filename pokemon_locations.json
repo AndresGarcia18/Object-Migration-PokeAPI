@@ -1,502 +1,702 @@
 [
   {
-    "location_area": "canalave-city",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "canalave-city",
+    "number_of_areas": 1,
+    "id": 1,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "eterna-city",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "eterna-city",
+    "number_of_areas": 2,
+    "id": 2,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "pastoria-city",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "pastoria-city",
+    "number_of_areas": 1,
+    "id": 3,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sunyshore-city",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "sunyshore-city",
+    "number_of_areas": 1,
+    "id": 4,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-pokemon-league",
-    "pokemon_id": "73",
-    "pokemon_name": "tentacruel"
+    "name": "sinnoh-pokemon-league",
+    "number_of_areas": 1,
+    "id": 5,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "oreburgh-mine",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "oreburgh-mine",
+    "number_of_areas": 2,
+    "id": 6,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "valley-windworks",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "valley-windworks",
+    "number_of_areas": 1,
+    "id": 7,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "eterna-forest",
-    "pokemon_id": "10",
-    "pokemon_name": "caterpie"
+    "name": "eterna-forest",
+    "number_of_areas": 1,
+    "id": 8,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "fuego-ironworks",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "fuego-ironworks",
+    "number_of_areas": 1,
+    "id": 9,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "mt-coronet",
-    "pokemon_id": "35",
-    "pokemon_name": "clefairy"
+    "name": "mt-coronet",
+    "number_of_areas": 13,
+    "id": 10,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "great-marsh",
-    "pokemon_id": "24",
-    "pokemon_name": "arbok"
+    "name": "great-marsh",
+    "number_of_areas": 6,
+    "id": 11,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "solaceon-ruins",
-    "pokemon_id": "201",
-    "pokemon_name": "unown"
+    "name": "solaceon-ruins",
+    "number_of_areas": 18,
+    "id": 12,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-victory-road",
-    "pokemon_id": "42",
-    "pokemon_name": "golbat"
+    "name": "sinnoh-victory-road",
+    "number_of_areas": 6,
+    "id": 13,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "ravaged-path",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "ravaged-path",
+    "number_of_areas": 1,
+    "id": 14,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "oreburgh-gate",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "oreburgh-gate",
+    "number_of_areas": 2,
+    "id": 15,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "stark-mountain",
-    "pokemon_id": "22",
-    "pokemon_name": "fearow"
+    "name": "stark-mountain",
+    "number_of_areas": 4,
+    "id": 16,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "turnback-cave",
-    "pokemon_id": "42",
-    "pokemon_name": "golbat"
+    "name": "spring-path",
+    "number_of_areas": 0,
+    "id": 17,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "snowpoint-temple",
-    "pokemon_id": "42",
-    "pokemon_name": "golbat"
+    "name": "turnback-cave",
+    "number_of_areas": 7,
+    "id": 18,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "wayward-cave",
-    "pokemon_id": "27",
-    "pokemon_name": "sandshrew"
+    "name": "snowpoint-temple",
+    "number_of_areas": 6,
+    "id": 19,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "ruin-maniac-cave",
-    "pokemon_id": "74",
-    "pokemon_name": "geodude"
+    "name": "wayward-cave",
+    "number_of_areas": 2,
+    "id": 20,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "trophy-garden",
-    "pokemon_id": "25",
-    "pokemon_name": "pikachu"
+    "name": "ruin-maniac-cave",
+    "number_of_areas": 2,
+    "id": 22,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "iron-island",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "trophy-garden",
+    "number_of_areas": 1,
+    "id": 23,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "old-chateau",
-    "pokemon_id": "92",
-    "pokemon_name": "gastly"
+    "name": "iron-island",
+    "number_of_areas": 7,
+    "id": 24,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "lake-verity",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "old-chateau",
+    "number_of_areas": 9,
+    "id": 25,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "lake-valor",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "lake-verity",
+    "number_of_areas": 2,
+    "id": 26,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "lake-acuity",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "lake-valor",
+    "number_of_areas": 2,
+    "id": 27,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "valor-lakefront",
-    "pokemon_id": "30",
-    "pokemon_name": "nidorina"
+    "name": "lake-acuity",
+    "number_of_areas": 2,
+    "id": 28,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "acuity-lakefront",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "valor-lakefront",
+    "number_of_areas": 1,
+    "id": 29,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-201",
-    "pokemon_id": "29",
-    "pokemon_name": "nidoran-f"
+    "name": "acuity-lakefront",
+    "number_of_areas": 1,
+    "id": 30,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-202",
-    "pokemon_id": "58",
-    "pokemon_name": "growlithe"
+    "name": "sinnoh-route-201",
+    "number_of_areas": 1,
+    "id": 31,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-203",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-202",
+    "number_of_areas": 1,
+    "id": 32,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-204",
-    "pokemon_id": "10",
-    "pokemon_name": "caterpie"
+    "name": "sinnoh-route-203",
+    "number_of_areas": 1,
+    "id": 33,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-205",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "sinnoh-route-204",
+    "number_of_areas": 2,
+    "id": 34,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-206",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-205",
+    "number_of_areas": 2,
+    "id": 35,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-207",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-206",
+    "number_of_areas": 1,
+    "id": 36,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-208",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-207",
+    "number_of_areas": 1,
+    "id": 37,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-209",
-    "pokemon_id": "37",
-    "pokemon_name": "vulpix"
+    "name": "sinnoh-route-208",
+    "number_of_areas": 1,
+    "id": 38,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "lost-tower",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-209",
+    "number_of_areas": 1,
+    "id": 39,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-210",
-    "pokemon_id": "74",
-    "pokemon_name": "geodude"
+    "name": "lost-tower",
+    "number_of_areas": 5,
+    "id": 40,
+    "region": "sinnoh",
+    "generation": null
   },
   {
-    "location_area": "sinnoh-route-211",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-210",
+    "number_of_areas": 2,
+    "id": 41,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-212",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "sinnoh-route-211",
+    "number_of_areas": 2,
+    "id": 42,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-213",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "sinnoh-route-212",
+    "number_of_areas": 2,
+    "id": 43,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-214",
-    "pokemon_id": "37",
-    "pokemon_name": "vulpix"
+    "name": "sinnoh-route-213",
+    "number_of_areas": 1,
+    "id": 44,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-215",
-    "pokemon_id": "63",
-    "pokemon_name": "abra"
+    "name": "sinnoh-route-214",
+    "number_of_areas": 1,
+    "id": 45,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-216",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-215",
+    "number_of_areas": 1,
+    "id": 46,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-217",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "sinnoh-route-216",
+    "number_of_areas": 1,
+    "id": 47,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-218",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "sinnoh-route-217",
+    "number_of_areas": 1,
+    "id": 48,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-219",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "sinnoh-route-218",
+    "number_of_areas": 1,
+    "id": 49,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-221",
-    "pokemon_id": "30",
-    "pokemon_name": "nidorina"
+    "name": "sinnoh-route-219",
+    "number_of_areas": 1,
+    "id": 50,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-222",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "sinnoh-route-221",
+    "number_of_areas": 1,
+    "id": 51,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-224",
-    "pokemon_id": "43",
-    "pokemon_name": "oddish"
+    "name": "sinnoh-route-222",
+    "number_of_areas": 1,
+    "id": 52,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-225",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "sinnoh-route-224",
+    "number_of_areas": 1,
+    "id": 53,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-227",
-    "pokemon_id": "22",
-    "pokemon_name": "fearow"
+    "name": "sinnoh-route-225",
+    "number_of_areas": 1,
+    "id": 54,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-228",
-    "pokemon_id": "28",
-    "pokemon_name": "sandslash"
+    "name": "sinnoh-route-227",
+    "number_of_areas": 1,
+    "id": 55,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-route-229",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "sinnoh-route-228",
+    "number_of_areas": 1,
+    "id": 56,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "twinleaf-town",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "sinnoh-route-229",
+    "number_of_areas": 1,
+    "id": 57,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "celestic-town",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "twinleaf-town",
+    "number_of_areas": 1,
+    "id": 58,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "resort-area",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "celestic-town",
+    "number_of_areas": 1,
+    "id": 59,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-sea-route-220",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "resort-area",
+    "number_of_areas": 1,
+    "id": 60,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-sea-route-223",
-    "pokemon_id": "73",
-    "pokemon_name": "tentacruel"
+    "name": "sinnoh-sea-route-220",
+    "number_of_areas": 1,
+    "id": 61,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-sea-route-226",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "sinnoh-sea-route-223",
+    "number_of_areas": 1,
+    "id": 62,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "sinnoh-sea-route-230",
-    "pokemon_id": "43",
-    "pokemon_name": "oddish"
+    "name": "sinnoh-sea-route-226",
+    "number_of_areas": 1,
+    "id": 63,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "blackthorn-city",
-    "pokemon_id": "60",
-    "pokemon_name": "poliwag"
+    "name": "sinnoh-sea-route-230",
+    "number_of_areas": 1,
+    "id": 64,
+    "region": "sinnoh",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "burned-tower",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "blackthorn-city",
+    "number_of_areas": 1,
+    "id": 65,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "celadon-city",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "burned-tower",
+    "number_of_areas": 2,
+    "id": 66,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "cerulean-city",
-    "pokemon_id": "1",
-    "pokemon_name": "bulbasaur"
+    "name": "celadon-city",
+    "number_of_areas": 2,
+    "id": 67,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "cherrygrove-city",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "cerulean-city",
+    "number_of_areas": 1,
+    "id": 68,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "cianwood-city",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "cherrygrove-city",
+    "number_of_areas": 1,
+    "id": 69,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "cinnabar-island",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "cianwood-city",
+    "number_of_areas": 4,
+    "id": 70,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "dark-cave",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "cinnabar-island",
+    "number_of_areas": 2,
+    "id": 71,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "digletts-cave",
-    "pokemon_id": "50",
-    "pokemon_name": "diglett"
+    "name": "dark-cave",
+    "number_of_areas": 2,
+    "id": 72,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "dragons-den",
-    "pokemon_id": "129",
-    "pokemon_name": "magikarp"
+    "name": "digletts-cave",
+    "number_of_areas": 1,
+    "id": 73,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "ecruteak-city",
-    "pokemon_id": "60",
-    "pokemon_name": "poliwag"
+    "name": "dragons-den",
+    "number_of_areas": 1,
+    "id": 74,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "fuchsia-city",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "ecruteak-city",
+    "number_of_areas": 1,
+    "id": 75,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "ice-path",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "fuchsia-city",
+    "number_of_areas": 1,
+    "id": 76,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "ilex-forest",
-    "pokemon_id": "10",
-    "pokemon_name": "caterpie"
+    "name": "ice-path",
+    "number_of_areas": 4,
+    "id": 77,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "lake-of-rage",
-    "pokemon_id": "10",
-    "pokemon_name": "caterpie"
+    "name": "ilex-forest",
+    "number_of_areas": 1,
+    "id": 78,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "mt-moon",
-    "pokemon_id": "60",
-    "pokemon_name": "poliwag"
+    "name": "lake-of-rage",
+    "number_of_areas": 1,
+    "id": 79,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "mt-mortar",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "mt-moon",
+    "number_of_areas": 5,
+    "id": 80,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "mt-silver",
-    "pokemon_id": "42",
-    "pokemon_name": "golbat"
+    "name": "mt-mortar",
+    "number_of_areas": 4,
+    "id": 81,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "national-park",
-    "pokemon_id": "10",
-    "pokemon_name": "caterpie"
+    "name": "mt-silver",
+    "number_of_areas": 8,
+    "id": 82,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "new-bark-town",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "national-park",
+    "number_of_areas": 1,
+    "id": 83,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "olivine-city",
-    "pokemon_id": "72",
-    "pokemon_name": "tentacool"
+    "name": "new-bark-town",
+    "number_of_areas": 1,
+    "id": 84,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "pallet-town",
-    "pokemon_id": "1",
-    "pokemon_name": "bulbasaur"
+    "name": "olivine-city",
+    "number_of_areas": 1,
+    "id": 85,
+    "region": "johto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "rock-tunnel",
-    "pokemon_id": "41",
-    "pokemon_name": "zubat"
+    "name": "pallet-town",
+    "number_of_areas": 1,
+    "id": 86,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-1",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "rock-tunnel",
+    "number_of_areas": 3,
+    "id": 87,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-10",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "kanto-route-1",
+    "number_of_areas": 1,
+    "id": 88,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-11",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "kanto-route-10",
+    "number_of_areas": 1,
+    "id": 89,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-12",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "kanto-route-11",
+    "number_of_areas": 1,
+    "id": 90,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-13",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "kanto-route-12",
+    "number_of_areas": 1,
+    "id": 91,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-14",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "kanto-route-13",
+    "number_of_areas": 1,
+    "id": 92,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-15",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "kanto-route-14",
+    "number_of_areas": 1,
+    "id": 93,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-16",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "kanto-route-15",
+    "number_of_areas": 1,
+    "id": 94,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-17",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "kanto-route-16",
+    "number_of_areas": 1,
+    "id": 95,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-18",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "kanto-route-17",
+    "number_of_areas": 1,
+    "id": 96,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-sea-route-19",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "kanto-route-18",
+    "number_of_areas": 1,
+    "id": 97,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-2",
-    "pokemon_id": "10",
-    "pokemon_name": "caterpie"
+    "name": "kanto-sea-route-19",
+    "number_of_areas": 1,
+    "id": 98,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-sea-route-20",
-    "pokemon_id": "54",
-    "pokemon_name": "psyduck"
+    "name": "kanto-route-2",
+    "number_of_areas": 2,
+    "id": 99,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-sea-route-21",
-    "pokemon_id": "16",
-    "pokemon_name": "pidgey"
+    "name": "kanto-sea-route-20",
+    "number_of_areas": 1,
+    "id": 100,
+    "region": "kanto",
+    "generation": "generation-iv"
   },
   {
-    "location_area": "kanto-route-22",
-    "pokemon_id": "19",
-    "pokemon_name": "rattata"
+    "name": "kanto-sea-route-21",
+    "number_of_areas": 1,
+    "id": 101,
+    "region": "kanto",
+    "generation": "generation-iv"
   }
 ]
