@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const pokeapiClient = require('./adapters/pokeapi/pokeapiClient');
+const pokeapiClient = require('./pokeapiClient');
 
 async function fetchAndSaveLocations(limit = 100) {
-  const outPath = path.resolve(__dirname, '../pokemon_locations.json');
+  const outPath = path.resolve(__dirname, '../../../data/pokemon_locations.json');
   const result = [];
   let locationId = 1;
 
@@ -27,4 +27,4 @@ async function fetchAndSaveLocations(limit = 100) {
   console.log(`Pokemon_locations.json generated with ${result.length} unique locations.`);
 }
 
-fetchAndSaveLocations(100); 
+module.exports = fetchAndSaveLocations; 

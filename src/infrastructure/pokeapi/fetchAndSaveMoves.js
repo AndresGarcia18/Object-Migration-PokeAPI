@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
-const pokeapiClient = require('./adapters/pokeapi/pokeapiClient');
+const pokeapiClient = require('./pokeapiClient');
 
-async function fetchAndSaveMoves(limit = 100) {
+async function fetchAndSaveMoves() {
   try {
     const result = [];
     
-    for (let moveId = 1; moveId <= limit; moveId++) {
+    for (let moveId = 1; moveId <= 100; moveId++) {
       try {
         const moveResponse = await pokeapiClient.getMove(moveId);
         const moveData = moveResponse.data;
@@ -19,13 +19,12 @@ async function fetchAndSaveMoves(limit = 100) {
         };
         
         result.push(move);
-        console.log(`Move ${moveId}: ${moveData.name} processed`);
       } catch (error) {
         console.error(`Error fetching move ${moveId}:`, error.message);
       }
     }
     
-    const outPath = path.resolve(__dirname, '../moves.json');
+    const outPath = path.resolve(__dirname, '../../../data/moves.json');
     fs.writeFileSync(outPath, JSON.stringify(result, null, 2), 'utf-8');
     console.log(`moves.json generated with ${result.length} unique moves.`);
   } catch (error) {
@@ -33,4 +32,4 @@ async function fetchAndSaveMoves(limit = 100) {
   }
 }
 
-fetchAndSaveMoves(100); 
+module.exports = fetchAndSaveMoves; 
