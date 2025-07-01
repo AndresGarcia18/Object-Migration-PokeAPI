@@ -77,12 +77,11 @@ class HubspotApi extends HubspotRepository {
 
   async associateContactWithMove(contactId, moveId, associationTypeId) {
     if (!associationTypeId) {
-      throw new Error('associationTypeId para Contact-Move no puede estar vacío. Consulta /crm/v3/associations/contacts/2-46531333/labels para obtener el ID correcto.');
+      throw new Error('associationTypeId para Contact-Move cant be empty.');
     }
-    const url = `/crm/v3/associations/contact/${contactId}/2-46531333/${moveId}/${associationTypeId}`;
-    console.log(`[DEBUG] Asociando contacto (contactId: ${contactId}) con move (moveId: ${moveId}) usando URL: ${url} y associationTypeId: ${associationTypeId}`);
+    const url = `/crm/v3/objects/contacts/${contactId}/associations/2-46531333/${moveId}/${associationTypeId}`;
     try {
-      return await this.axios.post(url, {});
+      return await this.axios.put(url, {});
     } catch (e) {
       const hubspotError = e.response ? JSON.stringify(e.response.data) : e.message;
       console.error(`associateContactWithMove error:`, hubspotError);

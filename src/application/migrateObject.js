@@ -37,8 +37,6 @@ async function migrate() {
       console.error(`Error creating company ${location.name}:`, hubspotError);
     }
   }
-  console.log('locationIdMap:', locationIdMap);
-  console.log('Todos los IDs de compañías migradas:', Object.values(locationIdMap));
   for (const pokemon of pokemons) {
     try {
       const contactPayload = {
@@ -67,6 +65,20 @@ async function migrate() {
                 const hubspotError = e.response ? JSON.stringify(e.response.data) : e.message;
                 console.error(`  Error associating company (PokeAPI ID: ${pokeapiLocationId}):`, hubspotError);
               }
+            }
+          }
+        }
+      }
+
+      if (Array.isArray(pokemon.moves)) {
+        for (const pokeapiMoveId of pokemon.moves) {
+          const moveHubspotId = moveIdMap[pokeapiMoveId];
+          if (moveHubspotId) {
+            try {
+              await hubspot.associateContactWithMove(contactId, moveHubspotId, 17);
+            } catch (e) {
+              const hubspotError = e.response ? JSON.stringify(e.response.data) : e.message;
+              console.error(`Error associating move (PokeAPI ID: ${pokeapiMoveId}):`, hubspotError);
             }
           }
         }
