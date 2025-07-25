@@ -4,8 +4,8 @@
   "description": "Migración de datos desde PokeAPI a HubSpot usando Hexagonal Architecture.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/interfaces/cli/index.js",
+    "dev": "nodemon src/interfaces/cli/index.js"
   },
   "keywords": [
     "pokeapi",
@@ -16,9 +16,12 @@
   ],
   "author": "",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
+    "@hubspot/api-client": "^13.0.0",
     "axios": "^1.6.7",
-    "dotenv": "^16.6.1"
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.16.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"

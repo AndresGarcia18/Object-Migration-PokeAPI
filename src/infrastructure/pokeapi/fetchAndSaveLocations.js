@@ -1,30 +1,56 @@
-const fs = require('fs');
-const path = require('path');
-const pokeapiClient = require('./pokeapiClient');
 
-async function fetchAndSaveLocations(limit = 100) {
-  const outPath = path.resolve(__dirname, '../../../data/pokemon_locations.json');
-  const result = [];
+import pokeapiClient from './pokeapiClient.js';
+import Location from '../db/models/locations.js';
+import { logEvent } from '../db/progressHelper.js';
+
+async function fetchAndSaveLocations() {
+  const existingCount = await Location.countDocuments();
+  if (existingCount >= 100) {
+    console.log('Locations already present in MongoDB, skipping fetch.');
+    return;
+  }
+  let count = 0;
   let locationId = 1;
 
-  while (result.length < limit) {
+  async function saveLocation(locationData) {
+    const locationDoc = new Location({
+      id: locationData.id,
+      name: locationData.name,
+      number_of_areas: locationData.areas?.length || 0,
+      region: locationData.region?.name || null,
+      generation: locationData.game_indices?.[0]?.generation?.name || null
+    });
+    await locationDoc.save();
+  }
+
+  async function isDuplicate(locationId) {
+    return await Location.exists({ id: locationId });
+  }
+
+  while (count < 100) {
     try {
-      const locationResponse = await pokeapiClient.getLocation(locationId);
-      const locationData = locationResponse.data;
-      result.push({
-        name: locationData.name,
-        number_of_areas: Array.isArray(locationData.areas) ? locationData.areas.length : 0,
-        id: locationData.id,
-        region: locationData.region ? locationData.region.name : null,
-        generation: locationData.game_indices && locationData.game_indices.length > 0 && locationData.game_indices[0].generation ? locationData.game_indices[0].generation.name : null
-      });
-    } catch (e) {
+      const response = await pokeapiClient.getLocation(locationId);
+      if (!response || !response.data) {
+        locationId++;
+        continue;
+      }
+      const locationData = response.data;
+      if (await isDuplicate(locationData.id)) {
+        console.error(`Error fetching location with ID ${locationId}, duplicate key error...`);
+        await logEvent('locations', 'Duplicate key error', `Duplicate location ID ${locationId}`);
+        count++;
+        locationId++;
+        continue;
+      }
+      await saveLocation(locationData);
+      count++;
+    } catch (error) {
+      console.error(`Error fetching location ${locationId}:`, error.message);
+      await logEvent('locations', error.message, `Error fetching location ${locationId}`);
     }
     locationId++;
   }
-
-  fs.writeFileSync(outPath, JSON.stringify(result, null, 2), 'utf-8');
-  console.log(`Pokemon_locations.json generated with ${result.length} unique locations.`);
+  console.log(` -- Locations saved to MongoDB: ${count} -- `);
 }
 
-module.exports = fetchAndSaveLocations; 
+export default fetchAndSaveLocations;

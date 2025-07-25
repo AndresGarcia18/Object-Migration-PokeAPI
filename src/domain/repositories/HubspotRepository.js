@@ -1,27 +1,20 @@
+import Pokemon from '../../infrastructure/db/models/pokemons.js';
+import Location from '../../infrastructure/db/models/locations.js';
+import Move from '../../infrastructure/db/models/moves.js';
+
 class HubspotRepository {
-  /**
-   * Crea un contacto en Hubspot (Pokémon)
-   * @param {Object} pokemon
-   */
-  async createContact(pokemon) {
-    throw new Error('Not implemented');
+  async createPokemon(pokemon) {
+    const pokemonDoc = new Pokemon(pokemon);
+    return await pokemonDoc.save();
   }
-
-  /**
-   * Crea una empresa en Hubspot (Location)
-   * @param {Object} location
-   */
-  async createCompany(location) {
-    throw new Error('Not implemented');
+  async createLocation(location) {
+    const locationDoc = new Location(location);
+    return await locationDoc.save();
   }
-
-  /**
-   * Crea un custom object en Hubspot (Move)
-   * @param {Object} move
-   */
   async createMove(move) {
-    throw new Error('Not implemented');
+    const moveDoc = new Move(move);
+    return await moveDoc.save();
   }
 }
 
-module.exports = HubspotRepository;
+export default HubspotRepository;

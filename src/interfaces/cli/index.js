@@ -1,27 +1,37 @@
-require('dotenv').config();
+import 'dotenv/config';
+import connectMongo from '../../infrastructure/db/mongo.js';
+import fetchAndSaveMoves from '../../infrastructure/pokeapi/fetchAndSaveMoves.js';
+import fetchAndSaveLocations from '../../infrastructure/pokeapi/fetchAndSaveLocations.js';
+import fetchAndSavePokemons from '../../infrastructure/pokeapi/fetchAndSavePokemons.js';
+import migrate from '../../application/migrateObject.js';
+import { logEvent } from '../../infrastructure/db/progressHelper.js';
+
+await connectMongo();
 
 async function main() {
+  let currentStep = null;
   try {
-    console.log('1. Generating moves.json...');
-    const fetchAndSaveMoves = require('../../infrastructure/pokeapi/fetchAndSaveMoves');
+    console.log('1. Generating moves...');
+    currentStep = 'moves';
     await fetchAndSaveMoves();
-    console.log('Moves list generated.');
 
-    console.log('2. Generating pokemon_locations.json...');
-    const fetchAndSaveLocations = require('../../infrastructure/pokeapi/fetchAndSaveLocations');
+    console.log('2. Generating pokemon_locations...');
+    currentStep = 'locations';
     await fetchAndSaveLocations();
-    console.log('Locations list generated.');
 
-    console.log('3. Generating pokemons.json...');
-    const fetchAndSavePokemons = require('../../infrastructure/pokeapi/fetchAndSavePokemons');
+    console.log('3. Generating pokemons...');
+    currentStep = 'pokemons';
     await fetchAndSavePokemons();
-    console.log('Pokemons list generated.');
 
     console.log('4. Starting Migration...');
-    const migrate = require('../../application/migrateObject');
+    currentStep = 'migration';
     await migrate();
+
     console.log('Migration completed.');
   } catch (error) {
+    if (currentStep) {
+      await logEvent(currentStep, 'error', null, error.message);
+    }
     console.error('Error during the process:', error.message);
     process.exit(1);
   }

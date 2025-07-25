@@ -1,35 +1,32 @@
-const fs = require('fs');
-const path = require('path');
-const pokeapiClient = require('./pokeapiClient');
+import pokeapiClient from './pokeapiClient.js';
+import Move from '../db/models/moves.js';
+import { logEvent } from '../db/progressHelper.js';
 
 async function fetchAndSaveMoves() {
-  try {
-    const result = [];
-    
-    for (let moveId = 1; moveId <= 100; moveId++) {
-      try {
-        const moveResponse = await pokeapiClient.getMove(moveId);
-        const moveData = moveResponse.data;
-        
-        const move = {
-          id: moveData.id,
-          name: moveData.name,
-          pp: moveData.pp,
-          power: moveData.power
-        };
-        
-        result.push(move);
-      } catch (error) {
-        console.error(`Error fetching move ${moveId}:`, error.message);
-      }
-    }
-    
-    const outPath = path.resolve(__dirname, '../../../data/moves.json');
-    fs.writeFileSync(outPath, JSON.stringify(result, null, 2), 'utf-8');
-    console.log(`moves.json generated with ${result.length} unique moves.`);
-  } catch (error) {
-    console.error('Error fetching moves:', error.message);
+  const existingCount = await Move.countDocuments();
+  if (existingCount >= 100) {
+    console.log('Moves already present in MongoDB, skipping fetch.');
+    return;
   }
+  let count = 0;
+  for (let moveId = 1; moveId <= 100; moveId++) {
+    try {
+      const moveResponse = await pokeapiClient.getMove(moveId);
+      const moveData = moveResponse.data;
+      const moveDoc = new Move({
+        id: moveData.id,
+        name: moveData.name,
+        pp: moveData.pp,
+        power: moveData.power
+      });
+      await moveDoc.save();
+      count++;
+    } catch (error) {
+      console.error(`Error fetching move ${moveId}:`, error.message);
+      await logEvent('moves', error.message, `Error fetching move ${moveId}`);
+    }
+  }
+  console.log(` -- Moves saved to MongoDB: ${count} -- `);
 }
 
-module.exports = fetchAndSaveMoves; 
+export default fetchAndSaveMoves;
